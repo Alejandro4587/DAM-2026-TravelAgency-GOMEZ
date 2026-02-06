@@ -1,0 +1,40 @@
+<section class="seccion-buscador" style="background: #f8f9fa; padding: 40px 20px; border-bottom: 1px solid #ddd;">
+    <div style="max-width: 1000px; margin: 0 auto;">
+        <form action="../public/buscador.php" method="GET"
+            style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; align-items: flex-end;">
+
+            <div style="flex: 1; min-width: 250px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #333;">¿A dónde quieres
+                    ir?</label>
+                <input type="text" name="busqueda" placeholder="Ej: París, Playa, Aventura..."
+                    style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div style="flex: 0 1 200px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #333;">A partir de:</label>
+                <input type="date" name="fecha"
+                    style="width: 100%; padding: 11px; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div style="flex: 0 1 200px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold; color: #333;">Tipo de
+                    viaje:</label>
+                <select name="tipo" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;">
+                    <option value="">Cualquier tipo</option>
+                    <option value="Romántico">Romántico</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="Playa">Playa</option>
+                    <option value="Naturaleza">Naturaleza</option>
+                </select>
+            </div>
+
+            <div style="flex: 0 0 150px;">
+                <button type="submit"
+                    style="width: 100%; padding: 12px; background: #333; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; transition: background 0.3s;">
+                    🔍 BUSCAR
+                </button>
+            </div>
+
+        </form>
+    </div>
+</section>

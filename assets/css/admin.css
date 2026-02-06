@@ -1,0 +1,188 @@
+/* --- Estilos de Administración --- */
+
+.form-container-admin {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form-admin input, 
+.form-admin textarea, 
+.form-admin select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row-admin {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group-admin {
+    flex: 1;
+}
+
+.btn-admin-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+/* --- Pantalla de Login --- */
+
+.login-body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.login-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.login-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    width: 100%;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background: #555;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+/* --- Estilos específicos para Edición --- */
+
+.btn-update-admin {
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-update-admin:hover {
+    background-color: #e69500;
+}
+
+.form-admin label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* --- Estilos para Edición de Viajes --- */
+.btn-actualizar {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.input-full {
+    width: 100%;
+}
+
+.area-texto {
+    width: 100%;
+    height: 80px;
+}
+
+
+/* --- Panel de Control: Cards y Botones --- */
+
+.admin-title {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.admin-nav {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.btn-nuevo-viaje {
+    background: green; 
+    padding: 10px 20px; 
+    color: white; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.link-ver-web {
+    margin-left: 15px; 
+    text-decoration: none; 
+    color: #333;
+}
+
+/* Acciones dentro de la card */
+.btn-editar {
+    background: orange; 
+    padding: 7px 15px; 
+    border-radius: 4px; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.btn-borrar {
+    background: red; 
+    padding: 7px 15px; 
+    border-radius: 4px; 
+    color: white; 
+    text-decoration: none; 
+    font-size: 20px;
+}
