@@ -1,4 +1,4 @@
-# ✈️ TravelAgency - DAM 2026
+# TravelAgency - DAM 2026
 
 Este proyecto es una aplicación web de gestión para una **Agencia de Viajes**, desarrollada como parte del módulo DAM.
 
