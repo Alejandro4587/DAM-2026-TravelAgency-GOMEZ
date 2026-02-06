@@ -14,7 +14,7 @@ La pagina permite la visualización de ofertas de viajes para usuarios y un pane
 
 1. **Clonar/Descargar** el proyecto en tu servidor local (htdocs).
 2. **Importar la Base de Datos** desde el archivo SQL incluido.
-3. **Configurar `conexiondb.php`** con tus credenciales de MySQL.
+3. **Configurar `conexiondb.php`** con tus credenciales de phpMyAdmin .
 
 ### 🔐 Acceso Administrador
 * **Usuario:** `admin123`
