@@ -14,8 +14,8 @@ Proyecto de gestión de viajes desarrollado en PHP y MySQL. Permite la visualiza
 3. **Configurar `conexiondb.php`** con tus credenciales de MySQL.
 
 ### 🔐 Acceso Administrador
-* **Usuario:** `admin`
-* **Password:** `admin`
+* **Usuario:** `admin123`
+* **Password:** `admin123`
 
 ---
 
@@ -23,19 +23,19 @@ Proyecto de gestión de viajes desarrollado en PHP y MySQL. Permite la visualiza
 
 ### 1. Página de Inicio
 Vista principal con el banner de bienvenida y la filosofía de Three Traveling.
-![Inicio](assets/img/screenshots/Inicio.png)
+![Inicio](../assets/img/screenshots/Inicio.png)
 
 ### 2. Ofertas Destacadas
 Sección donde se muestran los viajes marcados como destacados mediante el sistema de tarjetas.
-![Ofertas Destacadas](assets/img/screenshots/Ofertas_destacadas.png)
+![Ofertas Destacadas](../assets/img/screenshots/Ofertas_destacadas.png)
 
 ### 3. Visualización de Viajes
 Listado completo de viajes disponibles con opción de ver detalles.
-![Visualizar Viajes](assets/img/screenshots/visualizar_viajes.png)
+![Visualizar Viajes](../assets/img/screenshots/visualizar_viajes.png)
 
 ### 4. Panel de Gestión (CRUD)
 Interfaz exclusiva para el administrador donde se gestionan las altas, bajas y modificaciones.
-![CRUD Viajes](assets/img/screenshots/crud_viajes.png)
+![CRUD Viajes](../assets/img/screenshots/crud_viajes.png)
 
 ---
 
